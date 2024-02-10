@@ -1,5 +1,5 @@
 local Config = {
-    WindowName = "Doni.Hup",
+    WindowName = "Doni Hup",
 	Color = Color3.fromRGB(255,128,64),
 	Keybind = Enum.KeyCode.RightControl
 }
@@ -417,11 +417,11 @@ local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 local Tab1 = Window:CreateTab("Game Rac")
 local Tab2 = Window:CreateTab("ChoiLamGi?")
 
-local Section1 = Tab1:CreateSection("AutoFarms")
-local Section2 = Tab1:CreateSection("Auto Stuff")
-local SectionA = Tab1:CreateSection("Misc")
-local Section3 = Tab2:CreateSection("Menu")
-local Section4 = Tab2:CreateSection("Background")
+local Section1 = Tab1:CreateSection("FarmsDauBuoi")
+local Section2 = Tab1:CreateSection("Bo Di")
+local SectionA = Tab1:CreateSection("Nghi La Vua")
+local Section3 = Tab2:CreateSection("Game Rac")
+local Section4 = Tab2:CreateSection("Nghi")
 
 local Toggle1 = Section1:CreateToggle("Auto Attack", nil, function(State)
 w2 = State
